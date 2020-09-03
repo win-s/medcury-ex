@@ -1,0 +1,22 @@
+{
+  "name": "medcury-exam",
+  "version": "1.0.0",
+  "description": "solution for exam question",
+  "author": "asawin sattiya",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha './{,!(node_modules)/**}/*.spec.js' --require @babel/register",
+    "dev": "./node_modules/.bin/mocha './{,!(node_modules)/**}/*.spec.js' --require @babel/register --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {
+    "sanctuary": "^3.1.0"
+  }
+}
